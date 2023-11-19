@@ -1,0 +1,252 @@
+#img{
+   
+  width: 50rem;    
+}
+.d-grid{
+  width: 45rem;
+}
+
+
+#bn{
+  width: 50rem;
+}
+#nav{
+    background-color: rgb(25, 89, 200);
+    height:3rem;
+    width: 100%;
+    
+}
+
+.carousel-item{
+  max-height: 30rem;
+  }
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+/*SUBIR ARCHIVO*/
+.file-input-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .file-input-label img {
+    width: 5rem; /* Ancho de la imagen del icono */
+    height: 5rem; /* Alto de la imagen del icono */
+    margin-right: 10px;
+  }
+  
+  .file-input {
+    display: none;
+  }
+  
+
+
+
+
+
+
+/*CORREO*/
+/* Estilos CSS */
+/* Puedes personalizar estos estilos según tus preferencias */
+.email-popup {
+  text-align: center;
+}
+
+.email-icon {
+  width: 5rem;
+  height: 5rem;
+  cursor: pointer;
+}
+
+#whatsapp{
+  width: 2rem;
+  height: 2rem;
+  margin-left: 1.5rem;
+}
+
+
+
+
+
+/* Estilos para las notificaciones */
+.notificacion-container {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 300px;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 1000;
+  
+}
+
+.notificacion {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  transition: opacity 0.5s;
+  position: relative;
+  opacity: 0; /* Inicialmente oculta */
+  
+}
+
+.notificacion.visible {
+  opacity: 1;
+  
+}
+
+.icon{
+  width: 2rem;
+  height: 2rem;
+  margin-left: 1.5rem;
+}
+
+
+
+/*GEOLOCALOZACION*/
+#map {
+  width: 100%;
+  height: 20rem;
+ 
+  transition: left 0.5s ease;
+}
+#ubi{
+  text-align: center;
+}
+
+/*RELOJ*/
+.clock {
+  margin-top: 0.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+#time {
+  font-size: 1.2rem;
+  color:black;
+}
+
+.imagen-regreso {
+  position: fixed;
+  bottom: 4rem;
+  right: 4rem;
+  cursor: pointer;
+  z-index: 1000;
+  margin-bottom: 5%;
+  }
+
+  /*RESERVA UNA CITA*/
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 5% auto; /* Ajusta la posición vertical */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    height: 80%; /* Ajusta la altura del modal */
+    overflow-y: auto; /* Agrega un desplazamiento vertical si es necesario */
+}
+
+.cerrarModal {
+    color: #aaa;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.cerrarModal:hover {
+    color: #000;
+}
+
+h2 {
+    color: #333;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+    height: 100%; /* Ajusta la altura del formulario */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-content: center; /* Centra los elementos verticalmente */
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box; /* Incluye el relleno y el borde en el ancho total */
+}
+
+button {
+    padding: 12px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#abrirModal{
+  width: 5rem;
+  height: 5rem;
+  cursor: pointer;
+ /* position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);*/
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            left: 38%;
+        }
+  
+
+#r{
+  text-align: center;
+ 
+}
+
+.i {
+  margin-left: -30px; /* Ajusta el valor según sea necesario para mover la imagen a la izquierda */
+}
